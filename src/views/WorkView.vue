@@ -90,6 +90,20 @@
                 experience.
               </p>
 
+              <!-- What it does -->
+              <div class="mt-5">
+                <p class="text-sm font-semibold text-[#111827]">
+                  What it does
+                </p>
+
+                <ul class="mt-3 space-y-2 text-sm text-[#6B7280]">
+                  <li>✓ Browse available meals</li>
+                  <li>✓ Manage customer accounts</li>
+                  <li>✓ Place and manage orders</li>
+                </ul>
+              </div>
+
+              <!-- Technologies -->
               <div class="mt-6 flex flex-wrap gap-2">
                 <span
                   class="rounded-full bg-[#F8F9FB] px-3 py-1 text-xs font-medium text-[#6B7280]"
@@ -182,6 +196,20 @@
                 everyday HR processes.
               </p>
 
+              <!-- What it does -->
+              <div class="mt-5">
+                <p class="text-sm font-semibold text-[#111827]">
+                  What it does
+                </p>
+
+                <ul class="mt-3 space-y-2 text-sm text-[#6B7280]">
+                  <li>✓ Manage employee records</li>
+                  <li>✓ Track attendance</li>
+                  <li>✓ Support payroll processes</li>
+                </ul>
+              </div>
+
+              <!-- Technologies -->
               <div class="mt-6 flex flex-wrap gap-2">
                 <span
                   class="rounded-full bg-[#F8F9FB] px-3 py-1 text-xs font-medium text-[#6B7280]"
@@ -209,6 +237,36 @@
 
       </div>
     </section>
+<!-- Work CTA -->
+<section class="bg-[#F8F9FB] py-20 lg:py-24">
+  <div class="mx-auto max-w-3xl px-6 text-center lg:px-8">
 
+    <p
+      class="text-sm font-semibold uppercase tracking-wider text-[#635BFF]"
+    >
+      Have a project in mind?
+    </p>
+
+    <h2
+      class="mt-3 text-3xl font-bold tracking-tight text-[#111827] sm:text-4xl"
+    >
+      Let's build something that works for your business.
+    </h2>
+
+    <p class="mx-auto mt-5 max-w-2xl text-lg leading-8 text-[#6B7280]">
+      Tell us what you're trying to achieve and let's explore
+      the right digital solution for you.
+    </p>
+
+    <RouterLink
+      to="/contact"
+      class="mt-8 inline-flex items-center rounded-xl bg-[#111827] px-6 py-3.5 font-semibold text-white transition hover:bg-[#635BFF]"
+    >
+      Start a Project
+      <span class="ml-2">→</span>
+    </RouterLink>
+
+  </div>
+</section>
   </main>
 </template>
